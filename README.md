@@ -1,6 +1,6 @@
 # Entrelinhas — Atlas dos vieses cognitivos
 
-**Site em produção:** https://entrelinhas-atlas-vieses.vercel.app
+**Site em produção:** https://atlasvieses.vercel.app
 
 **GitHub:** https://github.com/ghcastellano/entrelinhas-atlas-vieses (privado).
 
