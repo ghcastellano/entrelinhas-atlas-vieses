@@ -1,5 +1,9 @@
 # Entrelinhas — Atlas dos vieses cognitivos
 
+**Site em produção:** https://entrelinhas-atlas-vieses.vercel.app
+
+**GitHub:** https://github.com/ghcastellano/entrelinhas-atlas-vieses (privado).
+
 Atlas educativo em português brasileiro, adaptado da imagem **Cognitive Bias Codex, 2016** de John Manoogian III, com categorização de Buster Benson.
 
 ## Escopo conferido
@@ -13,7 +17,7 @@ Atlas educativo em português brasileiro, adaptado da imagem **Cognitive Bias Co
 
 ## Desenvolvimento
 
-Node.js 22 ou superior. Sem backend, credenciais ou variáveis de ambiente.
+Node.js 22 (22.12 ou superior dentro dessa versão principal). Sem backend, credenciais ou variáveis de ambiente.
 
 ```sh
 npm ci
@@ -52,7 +56,7 @@ O teste estrutural garante cobertura, agrupamento e integridade; não substitui 
 
 React + TypeScript + Vite. Fontes locais (DM Sans e Newsreader), ícones Lucide. Sem rastreadores, chamadas de API ou envio de respostas. Progresso salvo em `localStorage`, validado na leitura e com tratamento para armazenamento indisponível. Estado de busca e filtros é temporário. Rotas de lições usam `?vies=slug` e a página sobre usa `?sobre=1`.
 
-Vercel publica a branch `main` em produção pela integração nativa com GitHub. O workflow verifica conteúdo, TypeScript, build, fluxos de estudo, navegação e acessibilidade automatizada. Testes também podem ser executados contra a URL pública após publicar.
+Vercel publica a branch `main` em produção pela integração nativa com GitHub. Projeto: `gustavo-s/entrelinhas-atlas-vieses`. O workflow verifica conteúdo, TypeScript, build, fluxos de estudo, navegação e acessibilidade automatizada. Testes também podem ser executados contra a URL pública após publicar.
 
 ## Licenças
 

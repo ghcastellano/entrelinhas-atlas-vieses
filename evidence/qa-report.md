@@ -25,3 +25,13 @@ Checagens automáticas de acessibilidade e inspeção visual reduzem riscos, mas
 ## Reproduzir
 
 Consulte os comandos no README. `scripts/smoke-webkit.mjs` aceita `BASE_URL` para verificar o mesmo fluxo em produção.
+
+## Produção e integração
+
+- URL pública: https://entrelinhas-atlas-vieses.vercel.app — resposta HTTPS 200 e ativos carregados.
+- A mesma suíte de 11 testes Chromium foi executada contra a URL pública: 11 aprovados.
+- Smoke test WebKit móvel também aprovado na URL pública.
+- Repositório privado: https://github.com/ghcastellano/entrelinhas-atlas-vieses.
+- Projeto Vercel `gustavo-s/entrelinhas-atlas-vieses` conectado nativamente ao repositório; branch de produção `main`.
+- Primeira execução do GitHub Actions concluída com sucesso: https://github.com/ghcastellano/entrelinhas-atlas-vieses/actions/runs/35688766665.
+- Versão principal do Node fixada em 22 para manter previsibilidade entre desenvolvimento, CI e produção.

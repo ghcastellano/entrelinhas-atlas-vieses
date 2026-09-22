@@ -10,7 +10,8 @@
     "test": "node --test scripts/content.test.mjs",
     "test:e2e": "playwright test",
     "prebuild": "node scripts/compile-content.mjs && npm test",
-    "format:check": "prettier --check src/App.tsx src/main.tsx src/styles.css scripts/*.mjs tests/*.ts playwright.config.ts vite.config.ts"
+    "format:check": "prettier --check src/App.tsx src/main.tsx src/styles.css scripts/*.mjs tests/*.ts playwright.config.ts vite.config.ts",
+    "test:webkit": "node scripts/smoke-webkit.mjs"
   },
   "dependencies": {
     "@fontsource/dm-sans": "^5.2.0",
@@ -30,6 +31,6 @@
     "vite": "^7.1.0"
   },
   "engines": {
-    "node": ">=22.12.0"
+    "node": "22.x"
   }
 }

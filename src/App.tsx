@@ -769,7 +769,14 @@ export default function App() {
                     changeCategory(category === c.id ? "all" : c.id);
                     document
                       .getElementById("atlas")
-                      ?.scrollIntoView({ behavior: "smooth", block: "start" });
+                      ?.scrollIntoView({
+                        behavior: window.matchMedia(
+                          "(prefers-reduced-motion: reduce)",
+                        ).matches
+                          ? "auto"
+                          : "smooth",
+                        block: "start",
+                      });
                   }}
                 >
                   <div className="category-top">
