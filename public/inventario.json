@@ -1,0 +1,1107 @@
+[
+  {
+    "id": "informacao",
+    "title": "Informação demais",
+    "original": "Too Much Information",
+    "color": "#316c60",
+    "light": "#e7efe8",
+    "intro": "Como filtramos um mundo que não para de chamar nossa atenção.",
+    "groups": [
+      {
+        "title": "Notamos o que já está na memória ou se repete com frequência",
+        "original": "We notice things already primed in memory or repeated often.",
+        "entries": [
+          {
+            "original": "Availability heuristic",
+            "name": "Heurística da disponibilidade",
+            "id": "heuristica-da-disponibilidade"
+          },
+          {
+            "original": "Attentional bias",
+            "name": "Viés de atenção",
+            "id": "vies-de-atencao"
+          },
+          {
+            "original": "Illusory truth effect",
+            "name": "Efeito da verdade ilusória",
+            "id": "efeito-da-verdade-ilusoria"
+          },
+          {
+            "original": "Mere exposure effect",
+            "name": "Efeito da mera exposição",
+            "id": "efeito-da-mera-exposicao"
+          },
+          {
+            "original": "Context effect",
+            "name": "Efeito de contexto",
+            "id": "efeito-de-contexto"
+          },
+          {
+            "original": "Cue-dependent forgetting",
+            "name": "Esquecimento dependente de pistas",
+            "id": "esquecimento-dependente-de-pistas"
+          },
+          {
+            "original": "Mood-congruent memory bias",
+            "name": "Viés de memória congruente com o humor",
+            "id": "vies-de-memoria-congruente-com-o-humor"
+          },
+          {
+            "original": "Frequency illusion",
+            "name": "Ilusão de frequência",
+            "id": "ilusao-de-frequencia"
+          },
+          {
+            "original": "Baader-Meinhof Phenomenon",
+            "name": "Fenômeno Baader–Meinhof",
+            "id": "fenomeno-baader-meinhof"
+          },
+          {
+            "original": "Empathy gap",
+            "name": "Lacuna de empatia",
+            "id": "lacuna-de-empatia"
+          },
+          {
+            "original": "Omission bias",
+            "name": "Viés de omissão",
+            "id": "vies-de-omissao"
+          },
+          {
+            "original": "Base rate fallacy",
+            "name": "Falácia da taxa-base",
+            "id": "falacia-da-taxa-base"
+          }
+        ]
+      },
+      {
+        "title": "Coisas incomuns, engraçadas, marcantes ou humanas chamam mais atenção",
+        "original": "Bizarre/funny/visually-striking/anthropomorphic things stick out more than non-bizarre/unfunny things.",
+        "entries": [
+          {
+            "original": "Bizarreness effect",
+            "name": "Efeito da bizarrice",
+            "id": "efeito-da-bizarrice"
+          },
+          {
+            "original": "Humor effect",
+            "name": "Efeito do humor",
+            "id": "efeito-do-humor"
+          },
+          {
+            "original": "Von Restorff effect",
+            "name": "Efeito von Restorff",
+            "id": "efeito-von-restorff"
+          },
+          {
+            "original": "Picture superiority effect",
+            "name": "Efeito da superioridade da imagem",
+            "id": "efeito-da-superioridade-da-imagem"
+          },
+          {
+            "original": "Self-relevance effect",
+            "name": "Efeito de autorreferência",
+            "id": "efeito-de-autorreferencia"
+          },
+          {
+            "original": "Negativity bias",
+            "name": "Viés da negatividade",
+            "id": "vies-da-negatividade"
+          }
+        ]
+      },
+      {
+        "title": "Notamos quando algo muda",
+        "original": "We notice when something has changed.",
+        "entries": [
+          {
+            "original": "Anchoring",
+            "name": "Ancoragem",
+            "id": "ancoragem"
+          },
+          {
+            "original": "Conservatism",
+            "name": "Conservadorismo na revisão de crenças",
+            "id": "conservadorismo-na-revisao-de-crencas"
+          },
+          {
+            "original": "Contrast effect",
+            "name": "Efeito de contraste",
+            "id": "efeito-de-contraste"
+          },
+          {
+            "original": "Distinction bias",
+            "name": "Viés de distinção",
+            "id": "vies-de-distincao"
+          },
+          {
+            "original": "Focusing effect",
+            "name": "Efeito de foco",
+            "id": "efeito-de-foco"
+          },
+          {
+            "original": "Framing effect",
+            "name": "Efeito de enquadramento",
+            "id": "efeito-de-enquadramento"
+          },
+          {
+            "original": "Money illusion",
+            "name": "Ilusão monetária",
+            "id": "ilusao-monetaria"
+          },
+          {
+            "original": "Weber–Fechner law",
+            "name": "Lei de Weber–Fechner",
+            "id": "lei-de-weber-fechner"
+          }
+        ]
+      },
+      {
+        "title": "Buscamos detalhes que confirmam nossas crenças",
+        "original": "We are drawn to details that confirm our own existing beliefs",
+        "entries": [
+          {
+            "original": "Confirmation bias",
+            "name": "Viés de confirmação",
+            "id": "vies-de-confirmacao"
+          },
+          {
+            "original": "Congruence bias",
+            "name": "Viés de congruência",
+            "id": "vies-de-congruencia"
+          },
+          {
+            "original": "Post-purchase rationalization",
+            "name": "Racionalização pós-compra",
+            "id": "racionalizacao-pos-compra"
+          },
+          {
+            "original": "Choice-supportive bias",
+            "name": "Viés de apoio à escolha",
+            "id": "vies-de-apoio-a-escolha"
+          },
+          {
+            "original": "Selective perception",
+            "name": "Percepção seletiva",
+            "id": "percepcao-seletiva"
+          },
+          {
+            "original": "Observer-expectancy effect",
+            "name": "Efeito da expectativa do observador",
+            "id": "efeito-da-expectativa-do-observador"
+          },
+          {
+            "original": "Experimenter's bias",
+            "name": "Viés do experimentador",
+            "id": "vies-do-experimentador"
+          },
+          {
+            "original": "Observer effect",
+            "name": "Efeito do observador",
+            "id": "efeito-do-observador"
+          },
+          {
+            "original": "Expectation bias",
+            "name": "Viés de expectativa",
+            "id": "vies-de-expectativa"
+          },
+          {
+            "original": "Ostrich effect",
+            "name": "Efeito avestruz",
+            "id": "efeito-avestruz"
+          },
+          {
+            "original": "Subjective validation",
+            "name": "Validação subjetiva",
+            "id": "validacao-subjetiva"
+          },
+          {
+            "original": "Continued influence effect",
+            "name": "Efeito da influência continuada",
+            "id": "efeito-da-influencia-continuada"
+          },
+          {
+            "original": "Semmelweis reflex",
+            "name": "Reflexo de Semmelweis",
+            "id": "reflexo-de-semmelweis"
+          }
+        ]
+      },
+      {
+        "title": "Percebemos falhas nos outros mais facilmente do que em nós",
+        "original": "We notice flaws in others more easily than flaws in ourselves.",
+        "entries": [
+          {
+            "original": "Bias blind spot",
+            "name": "Ponto cego do viés",
+            "id": "ponto-cego-do-vies"
+          },
+          {
+            "original": "Naïve cynicism",
+            "name": "Cinismo ingênuo",
+            "id": "cinismo-ingenuo"
+          },
+          {
+            "original": "Naïve realism",
+            "name": "Realismo ingênuo",
+            "id": "realismo-ingenuo"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "significado",
+    "title": "Sentido de menos",
+    "original": "Not Enough Meaning",
+    "color": "#3d6687",
+    "light": "#e8eef5",
+    "intro": "Como preenchemos lacunas e encontramos histórias onde faltam dados.",
+    "groups": [
+      {
+        "title": "Encontramos histórias e padrões mesmo com poucos dados",
+        "original": "We find stories and patterns even in sparse data",
+        "entries": [
+          {
+            "original": "Confabulation",
+            "name": "Confabulação",
+            "id": "confabulacao"
+          },
+          {
+            "original": "Clustering illusion",
+            "name": "Ilusão de agrupamento",
+            "id": "ilusao-de-agrupamento"
+          },
+          {
+            "original": "Insensitivity to sample size",
+            "name": "Insensibilidade ao tamanho da amostra",
+            "id": "insensibilidade-ao-tamanho-da-amostra"
+          },
+          {
+            "original": "Neglect of probability",
+            "name": "Negligência da probabilidade",
+            "id": "negligencia-da-probabilidade"
+          },
+          {
+            "original": "Anecdotal fallacy",
+            "name": "Falácia da evidência anedótica",
+            "id": "falacia-da-evidencia-anedotica"
+          },
+          {
+            "original": "Illusion of validity",
+            "name": "Ilusão de validade",
+            "id": "ilusao-de-validade"
+          },
+          {
+            "original": "Masked man fallacy",
+            "name": "Falácia do homem mascarado",
+            "id": "falacia-do-homem-mascarado"
+          },
+          {
+            "original": "Recency illusion",
+            "name": "Ilusão de novidade",
+            "id": "ilusao-de-novidade"
+          },
+          {
+            "original": "Gambler's fallacy",
+            "name": "Falácia do apostador",
+            "id": "falacia-do-apostador"
+          },
+          {
+            "original": "Hot-hand fallacy",
+            "name": "Falácia da mão quente",
+            "id": "falacia-da-mao-quente"
+          },
+          {
+            "original": "Illusory correlation",
+            "name": "Correlação ilusória",
+            "id": "correlacao-ilusoria"
+          },
+          {
+            "original": "Pareidolia",
+            "name": "Pareidolia",
+            "id": "pareidolia"
+          },
+          {
+            "original": "Anthropomorphism",
+            "name": "Antropomorfismo",
+            "id": "antropomorfismo"
+          }
+        ]
+      },
+      {
+        "title": "Preenchemos lacunas com estereótipos, generalizações e histórias anteriores",
+        "original": "We fill in characteristics from stereotypes, generalities, and prior histories",
+        "entries": [
+          {
+            "original": "Group attribution error",
+            "name": "Erro de atribuição ao grupo",
+            "id": "erro-de-atribuicao-ao-grupo"
+          },
+          {
+            "original": "Ultimate attribution error",
+            "name": "Erro último de atribuição",
+            "id": "erro-ultimo-de-atribuicao"
+          },
+          {
+            "original": "Stereotyping",
+            "name": "Estereotipagem",
+            "id": "estereotipagem"
+          },
+          {
+            "original": "Essentialism",
+            "name": "Essencialismo",
+            "id": "essencialismo"
+          },
+          {
+            "original": "Functional fixedness",
+            "name": "Fixidez funcional",
+            "id": "fixidez-funcional"
+          },
+          {
+            "original": "Moral credential effect",
+            "name": "Efeito da credencial moral",
+            "id": "efeito-da-credencial-moral"
+          },
+          {
+            "original": "Just-world hypothesis",
+            "name": "Hipótese do mundo justo",
+            "id": "hipotese-do-mundo-justo"
+          },
+          {
+            "original": "Argument from fallacy",
+            "name": "Falácia da falácia",
+            "id": "falacia-da-falacia"
+          },
+          {
+            "original": "Authority bias",
+            "name": "Viés de autoridade",
+            "id": "vies-de-autoridade"
+          },
+          {
+            "original": "Automation bias",
+            "name": "Viés de automação",
+            "id": "vies-de-automacao"
+          },
+          {
+            "original": "Bandwagon effect",
+            "name": "Efeito manada",
+            "id": "efeito-manada"
+          },
+          {
+            "original": "Placebo effect",
+            "name": "Efeito placebo",
+            "id": "efeito-placebo"
+          }
+        ]
+      },
+      {
+        "title": "Vemos pessoas e coisas familiares ou queridas como melhores",
+        "original": "We imagine things and people we're familiar with or fond of as better",
+        "entries": [
+          {
+            "original": "Out-group homogeneity bias",
+            "name": "Viés da homogeneidade do exogrupo",
+            "id": "vies-da-homogeneidade-do-exogrupo"
+          },
+          {
+            "original": "Cross-race effect",
+            "name": "Efeito de reconhecimento entre grupos raciais",
+            "id": "efeito-de-reconhecimento-entre-grupos-raciais"
+          },
+          {
+            "original": "In-group bias",
+            "name": "Viés de favoritismo pelo próprio grupo",
+            "id": "vies-de-favoritismo-pelo-proprio-grupo"
+          },
+          {
+            "original": "Halo effect",
+            "name": "Efeito halo",
+            "id": "efeito-halo"
+          },
+          {
+            "original": "Cheerleader effect",
+            "name": "Efeito de atratividade em grupo",
+            "id": "efeito-de-atratividade-em-grupo"
+          },
+          {
+            "original": "Positivity effect",
+            "name": "Efeito de positividade",
+            "id": "efeito-de-positividade"
+          },
+          {
+            "original": "Not invented here",
+            "name": "Síndrome do não inventado aqui",
+            "id": "sindrome-do-nao-inventado-aqui"
+          },
+          {
+            "original": "Reactive devaluation",
+            "name": "Desvalorização reativa",
+            "id": "desvalorizacao-reativa"
+          },
+          {
+            "original": "Well-traveled road effect",
+            "name": "Efeito do caminho familiar",
+            "id": "efeito-do-caminho-familiar"
+          }
+        ]
+      },
+      {
+        "title": "Simplificamos probabilidades e números",
+        "original": "We simplify probabilities and numbers to make them easier to think about",
+        "entries": [
+          {
+            "original": "Mental accounting",
+            "name": "Contabilidade mental",
+            "id": "contabilidade-mental"
+          },
+          {
+            "original": "Appeal to probability fallacy",
+            "name": "Falácia do apelo à probabilidade",
+            "id": "falacia-do-apelo-a-probabilidade"
+          },
+          {
+            "original": "Normalcy bias",
+            "name": "Viés da normalidade",
+            "id": "vies-da-normalidade"
+          },
+          {
+            "original": "Murphy's Law",
+            "name": "Lei de Murphy",
+            "id": "lei-de-murphy"
+          },
+          {
+            "original": "Zero sum bias",
+            "name": "Viés da soma zero",
+            "id": "vies-da-soma-zero"
+          },
+          {
+            "original": "Survivorship bias",
+            "name": "Viés de sobrevivência",
+            "id": "vies-de-sobrevivencia"
+          },
+          {
+            "original": "Subadditivity effect",
+            "name": "Efeito da subaditividade",
+            "id": "efeito-da-subaditividade"
+          },
+          {
+            "original": "Denomination effect",
+            "name": "Efeito da denominação",
+            "id": "efeito-da-denominacao"
+          },
+          {
+            "original": "Magic number 7+-2",
+            "name": "Número mágico 7 ± 2",
+            "id": "numero-magico-7-2"
+          }
+        ]
+      },
+      {
+        "title": "Achamos que sabemos o que os outros pensam",
+        "original": "We think we know what other people are thinking",
+        "entries": [
+          {
+            "original": "Illusion of transparency",
+            "name": "Ilusão de transparência",
+            "id": "ilusao-de-transparencia"
+          },
+          {
+            "original": "Curse of knowledge",
+            "name": "Maldição do conhecimento",
+            "id": "maldicao-do-conhecimento"
+          },
+          {
+            "original": "Spotlight effect",
+            "name": "Efeito holofote",
+            "id": "efeito-holofote"
+          },
+          {
+            "original": "Extrinsic incentive error",
+            "name": "Erro dos incentivos extrínsecos",
+            "id": "erro-dos-incentivos-extrinsecos"
+          },
+          {
+            "original": "Illusion of external agency",
+            "name": "Ilusão de agência externa",
+            "id": "ilusao-de-agencia-externa"
+          },
+          {
+            "original": "Illusion of asymmetric insight",
+            "name": "Ilusão de compreensão assimétrica",
+            "id": "ilusao-de-compreensao-assimetrica"
+          }
+        ]
+      },
+      {
+        "title": "Projetamos nossa mentalidade atual no passado e no futuro",
+        "original": "We project our current mindset and assumptions onto the past and future",
+        "entries": [
+          {
+            "original": "Telescoping effect",
+            "name": "Efeito telescópico",
+            "id": "efeito-telescopico"
+          },
+          {
+            "original": "Rosy retrospection",
+            "name": "Retrospecção cor-de-rosa",
+            "id": "retrospeccao-cor-de-rosa"
+          },
+          {
+            "original": "Hindsight bias",
+            "name": "Viés retrospectivo",
+            "id": "vies-retrospectivo"
+          },
+          {
+            "original": "Outcome bias",
+            "name": "Viés de resultado",
+            "id": "vies-de-resultado"
+          },
+          {
+            "original": "Moral luck",
+            "name": "Sorte moral",
+            "id": "sorte-moral"
+          },
+          {
+            "original": "Declinism",
+            "name": "Declinismo",
+            "id": "declinismo"
+          },
+          {
+            "original": "Impact bias",
+            "name": "Viés de impacto",
+            "id": "vies-de-impacto"
+          },
+          {
+            "original": "Pessimism bias",
+            "name": "Viés de pessimismo",
+            "id": "vies-de-pessimismo"
+          },
+          {
+            "original": "Planning fallacy",
+            "name": "Falácia do planejamento",
+            "id": "falacia-do-planejamento"
+          },
+          {
+            "original": "Time-saving bias",
+            "name": "Viés da economia de tempo",
+            "id": "vies-da-economia-de-tempo"
+          },
+          {
+            "original": "Pro-innovation bias",
+            "name": "Viés pró-inovação",
+            "id": "vies-pro-inovacao"
+          },
+          {
+            "original": "Projection bias",
+            "name": "Viés de projeção",
+            "id": "vies-de-projecao"
+          },
+          {
+            "original": "Restraint bias",
+            "name": "Viés de autocontrole",
+            "id": "vies-de-autocontrole"
+          },
+          {
+            "original": "Self-consistency bias",
+            "name": "Viés de autoconsistência",
+            "id": "vies-de-autoconsistencia"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "acao",
+    "title": "Precisamos agir rápido",
+    "original": "Need To Act Fast",
+    "color": "#756021",
+    "light": "#f0ecd9",
+    "intro": "Como escolhemos um caminho quando o tempo e a energia são limitados.",
+    "groups": [
+      {
+        "title": "Para agir, precisamos confiar que podemos fazer a diferença",
+        "original": "To act, we must be confident we can make an impact and feel what we do is important",
+        "entries": [
+          {
+            "original": "Overconfidence effect",
+            "name": "Efeito do excesso de confiança",
+            "id": "efeito-do-excesso-de-confianca"
+          },
+          {
+            "original": "Social desirability bias",
+            "name": "Viés de desejabilidade social",
+            "id": "vies-de-desejabilidade-social"
+          },
+          {
+            "original": "Third-person effect",
+            "name": "Efeito da terceira pessoa",
+            "id": "efeito-da-terceira-pessoa"
+          },
+          {
+            "original": "False consensus effect",
+            "name": "Efeito do falso consenso",
+            "id": "efeito-do-falso-consenso"
+          },
+          {
+            "original": "Hard-easy effect",
+            "name": "Efeito difícil–fácil",
+            "id": "efeito-dificil-facil"
+          },
+          {
+            "original": "Lake Wobegone effect",
+            "name": "Efeito Lago Wobegon",
+            "id": "efeito-lago-wobegon"
+          },
+          {
+            "original": "Dunning-Kruger effect",
+            "name": "Efeito Dunning–Kruger",
+            "id": "efeito-dunning-kruger"
+          },
+          {
+            "original": "Egocentric bias",
+            "name": "Viés egocêntrico",
+            "id": "vies-egocentrico"
+          },
+          {
+            "original": "Optimism bias",
+            "name": "Viés de otimismo",
+            "id": "vies-de-otimismo"
+          },
+          {
+            "original": "Forer effect",
+            "name": "Efeito Forer",
+            "id": "efeito-forer"
+          },
+          {
+            "original": "Barnum effect",
+            "name": "Efeito Barnum",
+            "id": "efeito-barnum"
+          },
+          {
+            "original": "Self-serving bias",
+            "name": "Viés de autoconveniência",
+            "id": "vies-de-autoconveniencia"
+          },
+          {
+            "original": "Actor-observer bias",
+            "name": "Viés ator–observador",
+            "id": "vies-ator-observador"
+          },
+          {
+            "original": "Illusion of control",
+            "name": "Ilusão de controle",
+            "id": "ilusao-de-controle"
+          },
+          {
+            "original": "Illusory superiority",
+            "name": "Superioridade ilusória",
+            "id": "superioridade-ilusoria"
+          },
+          {
+            "original": "Fundamental attribution error",
+            "name": "Erro fundamental de atribuição",
+            "id": "erro-fundamental-de-atribuicao"
+          },
+          {
+            "original": "Defensive attribution hypothesis",
+            "name": "Hipótese da atribuição defensiva",
+            "id": "hipotese-da-atribuicao-defensiva"
+          },
+          {
+            "original": "Trait ascription bias",
+            "name": "Viés de atribuição de traços",
+            "id": "vies-de-atribuicao-de-tracos"
+          },
+          {
+            "original": "Effort justification",
+            "name": "Justificação do esforço",
+            "id": "justificacao-do-esforco"
+          },
+          {
+            "original": "Risk compensation",
+            "name": "Compensação de risco",
+            "id": "compensacao-de-risco"
+          },
+          {
+            "original": "Peltzman effect",
+            "name": "Efeito Peltzman",
+            "id": "efeito-peltzman"
+          }
+        ]
+      },
+      {
+        "title": "Favorecemos o que é imediato e próximo",
+        "original": "To stay focused, we favor the immediate, relatable thing in front of us",
+        "entries": [
+          {
+            "original": "Hyperbolic discounting",
+            "name": "Desconto hiperbólico",
+            "id": "desconto-hiperbolico"
+          },
+          {
+            "original": "Appeal to novelty",
+            "name": "Apelo à novidade",
+            "id": "apelo-a-novidade"
+          },
+          {
+            "original": "Identifiable victim effect",
+            "name": "Efeito da vítima identificável",
+            "id": "efeito-da-vitima-identificavel"
+          }
+        ]
+      },
+      {
+        "title": "Persistimos no que já recebeu nosso tempo e energia",
+        "original": "To get anything done, we tend to complete things we've invested time & energy in.",
+        "entries": [
+          {
+            "original": "Sunk cost fallacy",
+            "name": "Falácia dos custos irrecuperáveis",
+            "id": "falacia-dos-custos-irrecuperaveis"
+          },
+          {
+            "original": "Irrational escalation",
+            "name": "Escalada irracional",
+            "id": "escalada-irracional"
+          },
+          {
+            "original": "Escalation of commitment",
+            "name": "Escalada de comprometimento",
+            "id": "escalada-de-comprometimento"
+          },
+          {
+            "original": "Generation effect",
+            "name": "Efeito de geração",
+            "id": "efeito-de-geracao"
+          },
+          {
+            "original": "Loss aversion",
+            "name": "Aversão à perda",
+            "id": "aversao-a-perda"
+          },
+          {
+            "original": "IKEA effect",
+            "name": "Efeito IKEA",
+            "id": "efeito-ikea"
+          },
+          {
+            "original": "Unit bias",
+            "name": "Viés de unidade",
+            "id": "vies-de-unidade"
+          },
+          {
+            "original": "Zero-risk bias",
+            "name": "Viés do risco zero",
+            "id": "vies-do-risco-zero"
+          },
+          {
+            "original": "Disposition effect",
+            "name": "Efeito disposição",
+            "id": "efeito-disposicao"
+          },
+          {
+            "original": "Pseudocertainty effect",
+            "name": "Efeito da pseudocerteza",
+            "id": "efeito-da-pseudocerteza"
+          },
+          {
+            "original": "Processing difficulty effect",
+            "name": "Efeito da dificuldade de processamento",
+            "id": "efeito-da-dificuldade-de-processamento"
+          },
+          {
+            "original": "Endowment effect",
+            "name": "Efeito dotação",
+            "id": "efeito-dotacao"
+          },
+          {
+            "original": "Backfire effect",
+            "name": "Efeito de reação contrária",
+            "id": "efeito-de-reacao-contraria"
+          }
+        ]
+      },
+      {
+        "title": "Preservamos autonomia, posição no grupo e decisões reversíveis",
+        "original": "To avoid mistakes, we tend to preserve our autonomy and group status, and avoid irreversible decisions.",
+        "entries": [
+          {
+            "original": "System justification",
+            "name": "Justificação do sistema",
+            "id": "justificacao-do-sistema"
+          },
+          {
+            "original": "Reverse psychology",
+            "name": "Psicologia reversa",
+            "id": "psicologia-reversa"
+          },
+          {
+            "original": "Reactance",
+            "name": "Reatância psicológica",
+            "id": "reatancia-psicologica"
+          },
+          {
+            "original": "Decoy effect",
+            "name": "Efeito chamariz",
+            "id": "efeito-chamariz"
+          },
+          {
+            "original": "Social comparison bias",
+            "name": "Viés de comparação social",
+            "id": "vies-de-comparacao-social"
+          },
+          {
+            "original": "Status quo bias",
+            "name": "Viés do status quo",
+            "id": "vies-do-status-quo"
+          }
+        ]
+      },
+      {
+        "title": "Preferimos opções simples e informações completas",
+        "original": "We favor options that appear simple or have more complete information over more complex, ambiguous options.",
+        "entries": [
+          {
+            "original": "Ambiguity bias",
+            "name": "Viés da ambiguidade",
+            "id": "vies-da-ambiguidade"
+          },
+          {
+            "original": "Information bias",
+            "name": "Viés de informação",
+            "id": "vies-de-informacao"
+          },
+          {
+            "original": "Belief bias",
+            "name": "Viés de crença",
+            "id": "vies-de-crenca"
+          },
+          {
+            "original": "Rhyme as reason effect",
+            "name": "Efeito da rima como razão",
+            "id": "efeito-da-rima-como-razao"
+          },
+          {
+            "original": "Bike-shedding effect",
+            "name": "Efeito do bicicletário",
+            "id": "efeito-do-bicicletario"
+          },
+          {
+            "original": "Law of Triviality",
+            "name": "Lei da trivialidade",
+            "id": "lei-da-trivialidade"
+          },
+          {
+            "original": "Delmore effect",
+            "name": "Efeito Delmore",
+            "id": "efeito-delmore"
+          },
+          {
+            "original": "Conjunction fallacy",
+            "name": "Falácia da conjunção",
+            "id": "falacia-da-conjuncao"
+          },
+          {
+            "original": "Occam's razor",
+            "name": "Navalha de Occam",
+            "id": "navalha-de-occam"
+          },
+          {
+            "original": "Less-is-better effect",
+            "name": "Efeito menos é melhor",
+            "id": "efeito-menos-e-melhor"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "memoria",
+    "title": "O que devemos lembrar?",
+    "original": "What Should We Remember?",
+    "color": "#78546d",
+    "light": "#f0e9ee",
+    "intro": "Como selecionamos, reconstruímos e transformamos nossas memórias.",
+    "groups": [
+      {
+        "title": "Editamos e reforçamos memórias depois dos acontecimentos",
+        "original": "We edit and reinforce some memories after the fact",
+        "entries": [
+          {
+            "original": "Misattribution of memory",
+            "name": "Atribuição incorreta da memória",
+            "id": "atribuicao-incorreta-da-memoria"
+          },
+          {
+            "original": "Source confusion",
+            "name": "Confusão de fonte",
+            "id": "confusao-de-fonte"
+          },
+          {
+            "original": "Cryptomnesia",
+            "name": "Criptomnésia",
+            "id": "criptomnesia"
+          },
+          {
+            "original": "False memory",
+            "name": "Falsa memória",
+            "id": "falsa-memoria"
+          },
+          {
+            "original": "Suggestibility",
+            "name": "Sugestionabilidade",
+            "id": "sugestionabilidade"
+          },
+          {
+            "original": "Spacing effect",
+            "name": "Efeito do espaçamento",
+            "id": "efeito-do-espacamento"
+          }
+        ]
+      },
+      {
+        "title": "Descartamos detalhes para formar generalizações",
+        "original": "We discard specifics to form generalities",
+        "entries": [
+          {
+            "original": "Implicit associations",
+            "name": "Associações implícitas",
+            "id": "associacoes-implicitas"
+          },
+          {
+            "original": "Implicit stereotypes",
+            "name": "Estereótipos implícitos",
+            "id": "estereotipos-implicitos"
+          },
+          {
+            "original": "Stereotypical bias",
+            "name": "Viés estereotípico da memória",
+            "id": "vies-estereotipico-da-memoria"
+          },
+          {
+            "original": "Prejudice",
+            "name": "Preconceito",
+            "id": "preconceito"
+          },
+          {
+            "original": "Negativity bias",
+            "name": "Viés da negatividade",
+            "id": "vies-da-negatividade"
+          },
+          {
+            "original": "Fading affect bias",
+            "name": "Viés do desvanecimento afetivo",
+            "id": "vies-do-desvanecimento-afetivo"
+          }
+        ]
+      },
+      {
+        "title": "Reduzimos eventos e listas aos elementos principais",
+        "original": "We reduce events and lists to their key elements",
+        "entries": [
+          {
+            "original": "Peak–end rule",
+            "name": "Regra do pico e do fim",
+            "id": "regra-do-pico-e-do-fim"
+          },
+          {
+            "original": "Leveling and sharpening",
+            "name": "Nivelamento e acentuação",
+            "id": "nivelamento-e-acentuacao"
+          },
+          {
+            "original": "Misinformation effect",
+            "name": "Efeito da desinformação na memória",
+            "id": "efeito-da-desinformacao-na-memoria"
+          },
+          {
+            "original": "Serial recall effect",
+            "name": "Efeito da evocação serial",
+            "id": "efeito-da-evocacao-serial"
+          },
+          {
+            "original": "List-length effect",
+            "name": "Efeito do comprimento da lista",
+            "id": "efeito-do-comprimento-da-lista"
+          },
+          {
+            "original": "Duration neglect",
+            "name": "Negligência da duração",
+            "id": "negligencia-da-duracao"
+          },
+          {
+            "original": "Modality effect",
+            "name": "Efeito de modalidade",
+            "id": "efeito-de-modalidade"
+          },
+          {
+            "original": "Memory inhibition",
+            "name": "Inibição da memória",
+            "id": "inibicao-da-memoria"
+          },
+          {
+            "original": "Primacy effect",
+            "name": "Efeito de primazia",
+            "id": "efeito-de-primazia"
+          },
+          {
+            "original": "Recency effect",
+            "name": "Efeito de recência",
+            "id": "efeito-de-recencia"
+          },
+          {
+            "original": "Part-list cueing effect",
+            "name": "Efeito das pistas parciais da lista",
+            "id": "efeito-das-pistas-parciais-da-lista"
+          },
+          {
+            "original": "Serial position effect",
+            "name": "Efeito de posição serial",
+            "id": "efeito-de-posicao-serial"
+          },
+          {
+            "original": "Suffix effect",
+            "name": "Efeito sufixo",
+            "id": "efeito-sufixo"
+          }
+        ]
+      },
+      {
+        "title": "Armazenamos memórias de acordo com a experiência",
+        "original": "We store memories differently based on how they were experienced",
+        "entries": [
+          {
+            "original": "Levels of processing effect",
+            "name": "Efeito dos níveis de processamento",
+            "id": "efeito-dos-niveis-de-processamento"
+          },
+          {
+            "original": "Absent-mindedness",
+            "name": "Distração",
+            "id": "distracao"
+          },
+          {
+            "original": "Testing effect",
+            "name": "Efeito de testagem",
+            "id": "efeito-de-testagem"
+          },
+          {
+            "original": "Next-in-line effect",
+            "name": "Efeito do próximo da fila",
+            "id": "efeito-do-proximo-da-fila"
+          },
+          {
+            "original": "Google effect",
+            "name": "Efeito Google",
+            "id": "efeito-google"
+          },
+          {
+            "original": "Tip of the tongue phenomenon",
+            "name": "Fenômeno da ponta da língua",
+            "id": "fenomeno-da-ponta-da-lingua"
+          }
+        ]
+      }
+    ]
+  }
+]

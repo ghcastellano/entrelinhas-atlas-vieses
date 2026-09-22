@@ -1,0 +1,6 @@
+evidence/
+tests/
+.github/
+test-results/
+playwright-report/
+*.tsbuildinfo

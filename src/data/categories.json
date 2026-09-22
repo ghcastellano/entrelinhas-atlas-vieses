@@ -1,0 +1,62 @@
+[
+  {
+    "id": "informacao",
+    "title": "Informação demais",
+    "original": "Too Much Information",
+    "color": "#316c60",
+    "light": "#e7efe8",
+    "intro": "Como filtramos um mundo que não para de chamar nossa atenção.",
+    "groups": [
+      "Notamos o que já está na memória ou se repete com frequência",
+      "Coisas incomuns, engraçadas, marcantes ou humanas chamam mais atenção",
+      "Notamos quando algo muda",
+      "Buscamos detalhes que confirmam nossas crenças",
+      "Percebemos falhas nos outros mais facilmente do que em nós"
+    ]
+  },
+  {
+    "id": "significado",
+    "title": "Sentido de menos",
+    "original": "Not Enough Meaning",
+    "color": "#3d6687",
+    "light": "#e8eef5",
+    "intro": "Como preenchemos lacunas e encontramos histórias onde faltam dados.",
+    "groups": [
+      "Encontramos histórias e padrões mesmo com poucos dados",
+      "Preenchemos lacunas com estereótipos, generalizações e histórias anteriores",
+      "Vemos pessoas e coisas familiares ou queridas como melhores",
+      "Simplificamos probabilidades e números",
+      "Achamos que sabemos o que os outros pensam",
+      "Projetamos nossa mentalidade atual no passado e no futuro"
+    ]
+  },
+  {
+    "id": "acao",
+    "title": "Precisamos agir rápido",
+    "original": "Need To Act Fast",
+    "color": "#756021",
+    "light": "#f0ecd9",
+    "intro": "Como escolhemos um caminho quando o tempo e a energia são limitados.",
+    "groups": [
+      "Para agir, precisamos confiar que podemos fazer a diferença",
+      "Favorecemos o que é imediato e próximo",
+      "Persistimos no que já recebeu nosso tempo e energia",
+      "Preservamos autonomia, posição no grupo e decisões reversíveis",
+      "Preferimos opções simples e informações completas"
+    ]
+  },
+  {
+    "id": "memoria",
+    "title": "O que devemos lembrar?",
+    "original": "What Should We Remember?",
+    "color": "#78546d",
+    "light": "#f0e9ee",
+    "intro": "Como selecionamos, reconstruímos e transformamos nossas memórias.",
+    "groups": [
+      "Editamos e reforçamos memórias depois dos acontecimentos",
+      "Descartamos detalhes para formar generalizações",
+      "Reduzimos eventos e listas aos elementos principais",
+      "Armazenamos memórias de acordo com a experiência"
+    ]
+  }
+]
