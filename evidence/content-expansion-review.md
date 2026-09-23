@@ -31,3 +31,5 @@ As fontes da revisão estão em `src/data/editorial-notes.json`, nas aulas perti
 A busca e o conteúdo continuam locais e sem dependência de APIs. O pacote principal inclui todo o atlas: aproximadamente 237 kB comprimidos. O Vite emite aviso de tamanho por ultrapassar 500 kB sem compressão; a compilação não apresenta erro. Não foi adicionada uma arquitetura de carregamento remoto para esta revisão editorial.
 
 A publicação usa a integração GitHub → Vercel. A verificação da URL pública é executada após o deploy, para testar a versão efetivamente publicada.
+
+A primeira tentativa de deploy identificou a exclusão da fixture de compatibilidade pela regra `tests/` de `.vercelignore`. A fixture foi movida para `scripts/fixtures/`, junto dos testes de conteúdo executados durante o build, preservando a verificação em produção.

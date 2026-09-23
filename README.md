@@ -46,7 +46,7 @@ Para testar um deploy: `BASE_URL=https://SEU-DOMINIO npm run test:e2e`.
 - `src/data/deep-lessons.json`: nomes revisados, sinônimos e aprofundamento editorial de todas as 188 aulas.
 - `src/data/editorial-notes.json`: notas de nomenclatura e referências da revisão.
 - `src/data/source-links.json`: referências explícitas por entrada.
-- `tests/fixtures/original-links.json`: IDs publicados antes da revisão, protegidos por teste de compatibilidade.
+- `scripts/fixtures/original-links.json`: IDs publicados antes da revisão, protegidos por teste de compatibilidade.
 - `scripts/compile-content.mjs`: gera os dados usados pela aplicação e o inventário público.
 - `public/inventario.json`: inventário bilíngue, com todas as posições.
 - `public/referencia-codex-2016.png`: imagem fornecida, conservada para conferência.

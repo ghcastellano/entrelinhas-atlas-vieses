@@ -157,7 +157,7 @@ test("Every original entry has a complete lesson, original cases and actionable 
 });
 
 test("Brazilian title revisions preserve all previously published links and saved-progress IDs", () => {
-  const previous = read("tests/fixtures/original-links.json");
+  const previous = read("scripts/fixtures/original-links.json");
   for (const l of lessons)
     assert.equal(l.id, previous[l.originalName], l.originalName);
   const expected = {
