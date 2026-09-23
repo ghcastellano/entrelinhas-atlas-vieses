@@ -20,6 +20,14 @@ import lessons from "./data/lessons.json";
 import categories from "./data/categories.json";
 
 type Lesson = (typeof lessons)[number];
+const lessonSections = [
+  ["entender", "01 / Entenda"],
+  ["exemplos", "02 / Compare"],
+  ["cotidiano", "03 / Veja no cotidiano"],
+  ["limites", "04 / Diferencie"],
+  ["pratica", "05 / Aplique"],
+  ["exercicios", "06 / Teste o aprendizado"],
+];
 const normalize = (s: string) =>
   s
     .normalize("NFD")
@@ -231,7 +239,8 @@ function LessonView({
             </>
           ) : (
             <>
-              <BookOpen size={16} /> Leitura + prática · 4 min
+              <BookOpen size={16} /> {lesson.readingMinutes} min de leitura +
+              prática
             </>
           )}
         </span>
@@ -249,21 +258,63 @@ function LessonView({
             );
           })}
           <nav aria-label="Nesta explicação">
-            <a href="#entender">01 / Entenda</a>
-            <a href="#exemplos">02 / Compare</a>
-            <a href="#pratica">03 / Aplique</a>
-            <a href="#exercicios">04 / Teste o aprendizado</a>
+            {lessonSections.map(([id, label]) => (
+              <a key={id} href={`#${id}`}>
+                {label}
+              </a>
+            ))}
           </nav>
         </aside>
         <article>
-          <span className="eyebrow lesson-kicker">UM ATALHO DA MENTE</span>
+          <span className="eyebrow lesson-kicker">
+            UMA AULA, VÁRIOS JEITOS DE RECONHECER
+          </span>
           <h1 ref={heading} tabIndex={-1}>
             {lesson.name}
           </h1>
           <p className="original-name">{lesson.originalName}</p>
+          {lesson.aliases.length > 0 && (
+            <p className="lesson-aliases">
+              <strong>Outros nomes e termos de busca:</strong>{" "}
+              {lesson.aliases.join(" · ")}
+            </p>
+          )}
+          {lesson.termNote && (
+            <details className="term-note">
+              <summary>Sobre o nome em português</summary>
+              <p>{lesson.termNote}</p>
+            </details>
+          )}
+          <details className="mobile-lesson-toc">
+            <summary>
+              Nesta aula <span>6 etapas</span>
+            </summary>
+            <nav aria-label="Navegar pela aula">
+              {lessonSections.map(([id, label]) => (
+                <a key={id} href={`#${id}`}>
+                  {label}
+                </a>
+              ))}
+            </nav>
+          </details>
+          <div className="lesson-roadmap">
+            <BookOpen size={22} aria-hidden="true" />
+            <div>
+              <strong>Entender, reconhecer e praticar.</strong>
+              <p>
+                Leia o mecanismo, compare situações e teste a compreensão em
+                dois cenários novos. Os exemplos são ilustrações educativas.
+              </p>
+            </div>
+          </div>
           <section id="entender">
             <h2>O que acontece na nossa cabeça?</h2>
             <p className="explanation">{lesson.explanation}</p>
+            <div className="lesson-prose">
+              {lesson.paragraphs.map((paragraph) => (
+                <p key={paragraph}>{paragraph}</p>
+              ))}
+            </div>
           </section>
           <section id="exemplos">
             <h2>O mesmo mecanismo. Dois caminhos.</h2>
@@ -282,16 +333,40 @@ function LessonView({
               </div>
             </div>
           </section>
+          <section id="cotidiano" className="lesson-prose">
+            <span className="eyebrow">DO CONCEITO À SITUAÇÃO REAL</span>
+            <h2>Mais dois exemplos, passo a passo.</h2>
+            {lesson.cases.map((example, i) => (
+              <div className="worked-example" key={example}>
+                <span className="case-number">0{i + 1}</span>
+                <p>{example}</p>
+              </div>
+            ))}
+          </section>
+          <section id="limites" className="lesson-prose distinction">
+            <span className="eyebrow">PARA NÃO CONFUNDIR</span>
+            <h2>Onde o conceito começa — e termina.</h2>
+            <p>{lesson.distinction}</p>
+          </section>
           <section id="pratica" className="practice">
             <div className="practice-icon">
               <ArrowUpRight size={25} />
             </div>
             <div>
               <span className="eyebrow">LEVE PARA O DIA A DIA</span>
-              <h2>Um passo para experimentar</h2>
+              <h2>Um roteiro para experimentar</h2>
               <p>{lesson.practice}</p>
+              <ol className="practice-steps">
+                {lesson.steps.map((step) => (
+                  <li key={step}>{step}</li>
+                ))}
+              </ol>
             </div>
           </section>
+          <div className="lesson-takeaway">
+            <span className="eyebrow">GUARDE ESTA IDEIA</span>
+            <p>{lesson.takeaway}</p>
+          </div>
           <section id="exercicios" className="quiz">
             <div className="quiz-title">
               <span className="eyebrow">DA LEITURA À COMPREENSÃO</span>
@@ -409,6 +484,27 @@ function LessonView({
               Próximo viés <ArrowRight size={18} />
             </button>
           </div>
+          {lesson.references.length > 0 && (
+            <section
+              className="lesson-references"
+              aria-label="Fontes da revisão"
+            >
+              <h2>Para aprofundar e conferir</h2>
+              <p>
+                Referências para o conceito, seus limites ou a nomenclatura em
+                português. Os exemplos desta aula são ilustrações originais.
+              </p>
+              <ul>
+                {lesson.references.map((ref) => (
+                  <li key={ref.url}>
+                    <a href={ref.url} target="_blank" rel="noreferrer">
+                      {ref.title} <ExternalLink size={13} aria-hidden="true" />
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </section>
+          )}
         </article>
       </div>
     </main>
@@ -489,9 +585,9 @@ export default function App() {
           (group === "all" || p.group === Number(group)),
       ) &&
       (!onlyPending || !saved.includes(l.id)) &&
-      normalize(`${l.name} ${l.originalName} ${l.explanation}`).includes(
-        normalize(query),
-      ),
+      normalize(
+        `${l.name} ${l.aliases.join(" ")} ${l.originalName} ${l.explanation}`,
+      ).includes(normalize(query)),
   );
   const random = () => {
     const candidates = lessons.filter((l) => !saved.includes(l.id));
@@ -611,6 +707,13 @@ export default function App() {
             revisões posteriores.
           </p>
           <h2>Fontes e créditos</h2>
+          <p>
+            Os nomes foram revisados para o português brasileiro, com variantes
+            de uso acadêmico e corrente. Não existe um vocabulário único para
+            todos os itens: quando a revisão não encontrou uma denominação
+            consolidada, a aula identifica o nome como descritivo. Os termos
+            originais e os nomes anteriores continuam pesquisáveis.
+          </p>
           <ul className="source-list">
             <li>
               <a
@@ -767,16 +870,14 @@ export default function App() {
                   aria-pressed={category === c.id}
                   onClick={() => {
                     changeCategory(category === c.id ? "all" : c.id);
-                    document
-                      .getElementById("atlas")
-                      ?.scrollIntoView({
-                        behavior: window.matchMedia(
-                          "(prefers-reduced-motion: reduce)",
-                        ).matches
-                          ? "auto"
-                          : "smooth",
-                        block: "start",
-                      });
+                    document.getElementById("atlas")?.scrollIntoView({
+                      behavior: window.matchMedia(
+                        "(prefers-reduced-motion: reduce)",
+                      ).matches
+                        ? "auto"
+                        : "smooth",
+                      block: "start",
+                    });
                   }}
                 >
                   <div className="category-top">

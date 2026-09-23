@@ -18,7 +18,7 @@
           },
           {
             "original": "Attentional bias",
-            "name": "Viés de atenção",
+            "name": "Viés atencional",
             "id": "vies-de-atencao"
           },
           {
@@ -43,7 +43,7 @@
           },
           {
             "original": "Mood-congruent memory bias",
-            "name": "Viés de memória congruente com o humor",
+            "name": "Memória congruente com o humor",
             "id": "vies-de-memoria-congruente-com-o-humor"
           },
           {
@@ -53,7 +53,7 @@
           },
           {
             "original": "Baader-Meinhof Phenomenon",
-            "name": "Fenômeno Baader–Meinhof",
+            "name": "Fenômeno Baader-Meinhof",
             "id": "fenomeno-baader-meinhof"
           },
           {
@@ -68,7 +68,7 @@
           },
           {
             "original": "Base rate fallacy",
-            "name": "Falácia da taxa-base",
+            "name": "Negligência da taxa-base",
             "id": "falacia-da-taxa-base"
           }
         ]
@@ -84,17 +84,17 @@
           },
           {
             "original": "Humor effect",
-            "name": "Efeito do humor",
+            "name": "Efeito do humor na memória",
             "id": "efeito-do-humor"
           },
           {
             "original": "Von Restorff effect",
-            "name": "Efeito von Restorff",
+            "name": "Efeito de isolamento",
             "id": "efeito-von-restorff"
           },
           {
             "original": "Picture superiority effect",
-            "name": "Efeito da superioridade da imagem",
+            "name": "Efeito de superioridade das imagens",
             "id": "efeito-da-superioridade-da-imagem"
           },
           {
@@ -115,12 +115,12 @@
         "entries": [
           {
             "original": "Anchoring",
-            "name": "Ancoragem",
+            "name": "Viés de ancoragem",
             "id": "ancoragem"
           },
           {
             "original": "Conservatism",
-            "name": "Conservadorismo na revisão de crenças",
+            "name": "Viés de conservadorismo",
             "id": "conservadorismo-na-revisao-de-crencas"
           },
           {
@@ -135,7 +135,7 @@
           },
           {
             "original": "Focusing effect",
-            "name": "Efeito de foco",
+            "name": "Ilusão de foco",
             "id": "efeito-de-foco"
           },
           {
@@ -150,7 +150,7 @@
           },
           {
             "original": "Weber–Fechner law",
-            "name": "Lei de Weber–Fechner",
+            "name": "Lei de Weber-Fechner",
             "id": "lei-de-weber-fechner"
           }
         ]
@@ -186,7 +186,7 @@
           },
           {
             "original": "Observer-expectancy effect",
-            "name": "Efeito da expectativa do observador",
+            "name": "Efeito de expectativa do observador",
             "id": "efeito-da-expectativa-do-observador"
           },
           {
@@ -303,7 +303,7 @@
           },
           {
             "original": "Gambler's fallacy",
-            "name": "Falácia do apostador",
+            "name": "Falácia do jogador",
             "id": "falacia-do-apostador"
           },
           {
@@ -344,12 +344,12 @@
           },
           {
             "original": "Stereotyping",
-            "name": "Estereotipagem",
+            "name": "Estereótipos",
             "id": "estereotipagem"
           },
           {
             "original": "Essentialism",
-            "name": "Essencialismo",
+            "name": "Essencialismo psicológico",
             "id": "essencialismo"
           },
           {
@@ -359,12 +359,12 @@
           },
           {
             "original": "Moral credential effect",
-            "name": "Efeito da credencial moral",
+            "name": "Efeito das credenciais morais",
             "id": "efeito-da-credencial-moral"
           },
           {
             "original": "Just-world hypothesis",
-            "name": "Hipótese do mundo justo",
+            "name": "Crença no mundo justo",
             "id": "hipotese-do-mundo-justo"
           },
           {
@@ -400,17 +400,17 @@
         "entries": [
           {
             "original": "Out-group homogeneity bias",
-            "name": "Viés da homogeneidade do exogrupo",
+            "name": "Efeito de homogeneidade do exogrupo",
             "id": "vies-da-homogeneidade-do-exogrupo"
           },
           {
             "original": "Cross-race effect",
-            "name": "Efeito de reconhecimento entre grupos raciais",
+            "name": "Efeito de outra raça",
             "id": "efeito-de-reconhecimento-entre-grupos-raciais"
           },
           {
             "original": "In-group bias",
-            "name": "Viés de favoritismo pelo próprio grupo",
+            "name": "Favoritismo endogrupal",
             "id": "vies-de-favoritismo-pelo-proprio-grupo"
           },
           {
@@ -420,7 +420,7 @@
           },
           {
             "original": "Cheerleader effect",
-            "name": "Efeito de atratividade em grupo",
+            "name": "Efeito cheerleader",
             "id": "efeito-de-atratividade-em-grupo"
           },
           {
@@ -471,7 +471,7 @@
           },
           {
             "original": "Zero sum bias",
-            "name": "Viés da soma zero",
+            "name": "Viés de soma zero",
             "id": "vies-da-soma-zero"
           },
           {
@@ -491,7 +491,7 @@
           },
           {
             "original": "Magic number 7+-2",
-            "name": "Número mágico 7 ± 2",
+            "name": "Número mágico sete, mais ou menos dois",
             "id": "numero-magico-7-2"
           }
         ]
@@ -543,7 +543,7 @@
           },
           {
             "original": "Rosy retrospection",
-            "name": "Retrospecção cor-de-rosa",
+            "name": "Retrospecção rosada",
             "id": "retrospeccao-cor-de-rosa"
           },
           {
@@ -583,7 +583,7 @@
           },
           {
             "original": "Time-saving bias",
-            "name": "Viés da economia de tempo",
+            "name": "Viés de economia de tempo",
             "id": "vies-da-economia-de-tempo"
           },
           {
@@ -603,7 +603,7 @@
           },
           {
             "original": "Self-consistency bias",
-            "name": "Viés de autoconsistência",
+            "name": "Viés de consistência",
             "id": "vies-de-autoconsistencia"
           }
         ]
@@ -624,7 +624,7 @@
         "entries": [
           {
             "original": "Overconfidence effect",
-            "name": "Efeito do excesso de confiança",
+            "name": "Excesso de confiança",
             "id": "efeito-do-excesso-de-confianca"
           },
           {
@@ -644,7 +644,7 @@
           },
           {
             "original": "Hard-easy effect",
-            "name": "Efeito difícil–fácil",
+            "name": "Efeito difícil-fácil",
             "id": "efeito-dificil-facil"
           },
           {
@@ -654,7 +654,7 @@
           },
           {
             "original": "Dunning-Kruger effect",
-            "name": "Efeito Dunning–Kruger",
+            "name": "Efeito Dunning-Kruger",
             "id": "efeito-dunning-kruger"
           },
           {
@@ -679,12 +679,12 @@
           },
           {
             "original": "Self-serving bias",
-            "name": "Viés de autoconveniência",
+            "name": "Viés de autosserviço",
             "id": "vies-de-autoconveniencia"
           },
           {
             "original": "Actor-observer bias",
-            "name": "Viés ator–observador",
+            "name": "Viés ator-observador",
             "id": "vies-ator-observador"
           },
           {
@@ -756,7 +756,7 @@
         "entries": [
           {
             "original": "Sunk cost fallacy",
-            "name": "Falácia dos custos irrecuperáveis",
+            "name": "Falácia dos custos afundados",
             "id": "falacia-dos-custos-irrecuperaveis"
           },
           {
@@ -816,7 +816,7 @@
           },
           {
             "original": "Backfire effect",
-            "name": "Efeito de reação contrária",
+            "name": "Efeito rebote",
             "id": "efeito-de-reacao-contraria"
           }
         ]
@@ -863,7 +863,7 @@
         "entries": [
           {
             "original": "Ambiguity bias",
-            "name": "Viés da ambiguidade",
+            "name": "Aversão à ambiguidade",
             "id": "vies-da-ambiguidade"
           },
           {
@@ -883,12 +883,12 @@
           },
           {
             "original": "Bike-shedding effect",
-            "name": "Efeito do bicicletário",
+            "name": "Efeito bicicletário",
             "id": "efeito-do-bicicletario"
           },
           {
             "original": "Law of Triviality",
-            "name": "Lei da trivialidade",
+            "name": "Lei da trivialidade de Parkinson",
             "id": "lei-da-trivialidade"
           },
           {
@@ -929,7 +929,7 @@
         "entries": [
           {
             "original": "Misattribution of memory",
-            "name": "Atribuição incorreta da memória",
+            "name": "Erro de atribuição da memória",
             "id": "atribuicao-incorreta-da-memoria"
           },
           {
@@ -944,7 +944,7 @@
           },
           {
             "original": "False memory",
-            "name": "Falsa memória",
+            "name": "Falsas memórias",
             "id": "falsa-memoria"
           },
           {
@@ -975,7 +975,7 @@
           },
           {
             "original": "Stereotypical bias",
-            "name": "Viés estereotípico da memória",
+            "name": "Viés de estereótipo na memória",
             "id": "vies-estereotipico-da-memoria"
           },
           {
@@ -990,7 +990,7 @@
           },
           {
             "original": "Fading affect bias",
-            "name": "Viés do desvanecimento afetivo",
+            "name": "Viés de desvanecimento afetivo",
             "id": "vies-do-desvanecimento-afetivo"
           }
         ]
@@ -1016,12 +1016,12 @@
           },
           {
             "original": "Serial recall effect",
-            "name": "Efeito da evocação serial",
+            "name": "Recordação serial",
             "id": "efeito-da-evocacao-serial"
           },
           {
             "original": "List-length effect",
-            "name": "Efeito do comprimento da lista",
+            "name": "Efeito do tamanho da lista",
             "id": "efeito-do-comprimento-da-lista"
           },
           {
@@ -1051,7 +1051,7 @@
           },
           {
             "original": "Part-list cueing effect",
-            "name": "Efeito das pistas parciais da lista",
+            "name": "Efeito de pistas parciais da lista",
             "id": "efeito-das-pistas-parciais-da-lista"
           },
           {
@@ -1061,7 +1061,7 @@
           },
           {
             "original": "Suffix effect",
-            "name": "Efeito sufixo",
+            "name": "Efeito de sufixo",
             "id": "efeito-sufixo"
           }
         ]
@@ -1077,7 +1077,7 @@
           },
           {
             "original": "Absent-mindedness",
-            "name": "Distração",
+            "name": "Esquecimento por distração",
             "id": "distracao"
           },
           {
@@ -1087,7 +1087,7 @@
           },
           {
             "original": "Next-in-line effect",
-            "name": "Efeito do próximo da fila",
+            "name": "Efeito do próximo a falar",
             "id": "efeito-do-proximo-da-fila"
           },
           {

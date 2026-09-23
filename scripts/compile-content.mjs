@@ -7,6 +7,12 @@ const sourceLinks = JSON.parse(
   fs.readFileSync("src/data/source-links.json", "utf8"),
 );
 const rows = fs.readFileSync("src/data/lessons.txt", "utf8").trim().split("\n");
+const expanded = JSON.parse(
+  fs.readFileSync("src/data/deep-lessons.json", "utf8"),
+);
+const editorial = JSON.parse(
+  fs.readFileSync("src/data/editorial-notes.json", "utf8"),
+);
 const slug = (s) =>
   s
     .normalize("NFD")
@@ -44,11 +50,46 @@ const lessons = rows.map((row, i) => {
   );
   if (!placements.length)
     throw new Error(`Not in image inventory: ${originalName}`);
+  const deep = expanded[originalName];
+  if (!deep) throw new Error(`Missing complete lesson: ${originalName}`);
+  const aliases = [...new Set([name, ...deep.aliases])].filter(
+    (n) => n !== deep.name,
+  );
+  const words = [
+    explanation,
+    wrong,
+    right,
+    practice,
+    question,
+    correct,
+    incorrect,
+    feedback,
+    transfer,
+    reference,
+    ...deep.paragraphs,
+    ...deep.cases,
+    deep.distinction,
+    ...deep.steps,
+    deep.takeaway,
+  ]
+    .join(" ")
+    .split(/\s+/).length;
   return {
+    // Keep the original slug so shared links and saved progress survive title revisions.
     id: slug(name),
     sourceUrl: sourceLinks[originalName],
     originalName,
-    name,
+    name: deep.name,
+    aliases,
+    termNote: editorial[originalName]?.termNote || "",
+    references: editorial[originalName]?.references || [],
+    paragraphs: deep.paragraphs,
+    cases: deep.cases,
+    distinction: deep.distinction,
+    steps: deep.steps,
+    takeaway: deep.takeaway,
+    wordCount: words,
+    readingMinutes: Math.max(3, Math.ceil(words / 180)),
     explanation,
     wrong,
     right,
@@ -62,6 +103,10 @@ const lessons = rows.map((row, i) => {
     placements,
   };
 });
+if (Object.keys(expanded).some((key) => !seen.has(key)))
+  throw new Error(
+    "Expanded content has an entry outside the original inventory",
+  );
 fs.writeFileSync(
   "src/data/lessons.json",
   JSON.stringify(lessons, null, 2) + "\n",

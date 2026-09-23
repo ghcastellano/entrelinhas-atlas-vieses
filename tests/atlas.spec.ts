@@ -47,6 +47,13 @@ test("every lesson opens with full teaching content and distinct exercises", asy
     }, l.id);
     await expect(page.locator("article h1")).toHaveText(l.name);
     await expect(page.locator(".explanation")).toHaveText(l.explanation);
+    await expect(page.locator("#entender .lesson-prose p")).toHaveText(
+      l.paragraphs,
+    );
+    await expect(page.locator(".worked-example p")).toHaveText(l.cases);
+    await expect(page.locator("#limites > p")).toHaveText(l.distinction);
+    await expect(page.locator(".practice-steps li")).toHaveText(l.steps);
+    await expect(page.locator(".lesson-takeaway p")).toHaveText(l.takeaway);
     await expect(page.locator(".example.wrong p")).toHaveText(l.wrong);
     await expect(page.locator(".example.right p")).toHaveText(l.right);
     await expect(page.locator(".practice p")).toHaveText(l.practice);
@@ -57,6 +64,41 @@ test("every lesson opens with full teaching content and distinct exercises", asy
       page.getByRole("link", { name: "Consultar referência" }),
     ).toHaveAttribute("href", l.sourceUrl);
   }
+});
+
+test("Brazilian terminology, old names and new reading navigation", async ({
+  page,
+}) => {
+  await page.goto("/");
+  const search = page.getByRole("textbox", { name: "Buscar viés" });
+  for (const [query, title] of [
+    ["vies de atencao", "Viés atencional"],
+    ["custos afundados", "Falácia dos custos afundados"],
+    ["custos irrecuperaveis", "Falácia dos custos afundados"],
+    ["pratica de recuperacao", "Efeito de testagem"],
+  ]) {
+    await search.fill(query);
+    await expect(page.locator(".bias-card")).toHaveCount(1);
+    await expect(page.locator(".bias-card h3")).toHaveText(title);
+  }
+  const l = lessons.find((l) => l.originalName === "Attentional bias")!;
+  await page.evaluate(
+    (id) => localStorage.setItem("entrelinhas-learned", JSON.stringify([id])),
+    l.id,
+  );
+  await page.setViewportSize({ width: 390, height: 844 });
+  await page.goto(`/?vies=${l.id}`);
+  await expect(page.locator("h1")).toHaveText("Viés atencional");
+  await expect(
+    page.getByText("Estudo concluído", { exact: true }),
+  ).toBeVisible();
+  await page.locator(".mobile-lesson-toc summary").click();
+  await page.getByRole("link", { name: "03 / Veja no cotidiano" }).click();
+  await expect(page.locator("#cotidiano h2")).toBeInViewport();
+  const descriptive = lessons.find((l) => l.originalName === "Delmore effect")!;
+  await page.goto(`/?vies=${descriptive.id}`);
+  await page.getByText("Sobre o nome em português", { exact: true }).click();
+  await expect(page.locator(".term-note p")).toBeVisible();
 });
 
 test("wrong answer, retry, reflection, completion and persistence", async ({

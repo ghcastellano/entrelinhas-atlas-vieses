@@ -112,3 +112,66 @@ test("Source text compiles reproducibly and all source links are explicit", () =
   for (const l of lessons)
     assert.equal(l.sourceUrl, sourceLinks[l.originalName]);
 });
+
+test("Every original entry has a complete lesson, original cases and actionable steps", () => {
+  const expanded = read("src/data/deep-lessons.json");
+  assert.deepEqual(new Set(Object.keys(expanded)), new Set(flat));
+  const paragraphs = [],
+    cases = [];
+  for (const l of lessons) {
+    assert.equal(l.paragraphs.length, 2, l.id);
+    assert.equal(l.cases.length, 2, l.id);
+    assert.equal(l.steps.length, 3, l.id);
+    for (const p of [...l.paragraphs, ...l.cases, l.distinction])
+      assert.ok(
+        p.trim().split(/\s+/).length >= 25,
+        `${l.id}: incomplete teaching section`,
+      );
+    assert.ok(
+      l.steps.every((s) => s.length > 25),
+      l.id,
+    );
+    assert.ok(l.takeaway.length > 35, l.id);
+    assert.ok(l.wordCount >= 290, l.id);
+    assert.ok(l.readingMinutes >= 3, l.id);
+    assert.notEqual(l.cases[0], l.cases[1], l.id);
+    paragraphs.push(...l.paragraphs);
+    cases.push(...l.cases);
+    assert.equal(new Set(l.aliases).size, l.aliases.length, l.id);
+    assert.ok(!l.aliases.includes(l.name), l.id);
+    assert.ok(
+      l.references.every((r) => r.title && /^https:\/\//.test(r.url)),
+      l.id,
+    );
+  }
+  assert.equal(
+    new Set(paragraphs).size,
+    376,
+    "Explanations must not be generic repeated filler",
+  );
+  assert.equal(
+    new Set(cases).size,
+    376,
+    "Worked examples must be independently authored",
+  );
+});
+
+test("Brazilian title revisions preserve all previously published links and saved-progress IDs", () => {
+  const previous = read("tests/fixtures/original-links.json");
+  for (const l of lessons)
+    assert.equal(l.id, previous[l.originalName], l.originalName);
+  const expected = {
+    "Attentional bias": ["Viés atencional", "Viés de atenção"],
+    "Sunk cost fallacy": [
+      "Falácia dos custos afundados",
+      "Falácia dos custos irrecuperáveis",
+    ],
+    "Self-serving bias": ["Viés de autosserviço", "Viés de autoatribuição"],
+    "Testing effect": ["Efeito de testagem", "Prática de recuperação"],
+  };
+  for (const [originalName, [title, alias]] of Object.entries(expected)) {
+    const l = lessons.find((l) => l.originalName === originalName);
+    assert.equal(l.name, title);
+    assert.ok(l.aliases.includes(alias));
+  }
+});

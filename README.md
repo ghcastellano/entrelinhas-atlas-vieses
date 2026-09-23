@@ -10,7 +10,9 @@ Atlas educativo em português brasileiro, adaptado da imagem **Cognitive Bias Co
 
 - 188 nomes distintos, 189 posições na imagem (negatividade aparece em duas categorias).
 - 4 categorias e todos os 20 subgrupos preservados.
-- Explicação, exemplo de erro, alternativa responsável e ação prática para cada entrada.
+- 188 aulas com resumo, dois parágrafos de aprofundamento, comparação de condutas, dois casos adicionais comentados, limites conceituais, três passos de aplicação e síntese.
+- Mais de 62 mil palavras de conteúdo educativo; 46 títulos revisados e variantes em português brasileiro pesquisáveis.
+- Notas de nomenclatura para termos pouco padronizados e referências adicionais na revisão.
 - 376 questões: 188 situações com resposta comentada e 188 perguntas de transferência com referência para autoavaliação.
 - Busca sem distinção de acentos, filtros, mapa por teclado, links diretos e progresso local.
 - Sinônimos mantidos como na imagem. Efeito Delmore incluído, apesar da ausência em versões posteriores do SVG.
@@ -41,12 +43,17 @@ Para testar um deploy: `BASE_URL=https://SEU-DOMINIO npm run test:e2e`.
 - `src/data/original.json`: dados originais do autor, sem alteração.
 - `src/data/categories.json`: categorias e subgrupos traduzidos.
 - `src/data/lessons.txt`: textos editoriais, uma linha por lição, 12 campos separados por `|`.
+- `src/data/deep-lessons.json`: nomes revisados, sinônimos e aprofundamento editorial de todas as 188 aulas.
+- `src/data/editorial-notes.json`: notas de nomenclatura e referências da revisão.
 - `src/data/source-links.json`: referências explícitas por entrada.
+- `tests/fixtures/original-links.json`: IDs publicados antes da revisão, protegidos por teste de compatibilidade.
 - `scripts/compile-content.mjs`: gera os dados usados pela aplicação e o inventário público.
 - `public/inventario.json`: inventário bilíngue, com todas as posições.
 - `public/referencia-codex-2016.png`: imagem fornecida, conservada para conferência.
 - `public/fontes.html`: fontes e notas epistemológicas.
 - `evidence/`: relatório de conferência e verificações de interface.
+
+Os nomes de `lessons.txt` preservam a origem dos slugs; altere os títulos exibidos em `deep-lessons.json` para não quebrar URLs e progresso salvo.
 
 Não editar `lessons.json` ou `inventario.json` manualmente. A integração contínua confirma que os arquivos gerados correspondem aos textos.
 
